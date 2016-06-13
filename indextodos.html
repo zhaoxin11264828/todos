@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>todos</title>
+	<link rel="stylesheet" href="./todos/css/index.css">
+</head>
+<body>
+		<div id="todoapp">
+			<header id="header">
+				<h1>todos</h1>
+				<input id="new-todo" placeholder="What needs to be done?" autofocus>
+			</header>
+			<div id="main">
+				<input id="toggle-all" type="checkbox">
+				<label for="toggle-all" id="toggletip">Mark all as complete</label>
+				<ul id="todo-list">
+
+
+				</ul>
+			</div>
+			<footer id="footer">
+			<span id="todo-count"><strong>1</strong> item left</span>
+			<ul id="filters">
+				<li>
+					<a  href="#/all">All</a>
+				</li>
+				<li>
+					<a href="#/active">Active</a>
+				</li>
+				<li>
+					<a href="#/completed">Completed</a>
+				</li>
+			</ul>
+			<button id="clear-completed">Clear completed</button>
+		</footer>
+		</div>
+		<footer id="info">
+			<p>Double-click to edit a todo</p>
+			<p>Created by <a href="javascript:;">Sindre Sorhus</a></p>
+			<p>Part of <a href="javascript:;">TodoMVC</a></p>
+		</footer>
+	<script src="./jquery工程文件/jquery-1.12.0.js"></script>
+	<script src="./todos/js/index.js"></script>
+</body>
+</html>
